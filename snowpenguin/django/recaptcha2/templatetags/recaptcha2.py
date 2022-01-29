@@ -2,7 +2,7 @@ from random import randint
 
 from django import template
 from django.conf import settings
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext as _
 
 register = template.Library()
 
